@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <title>GDrive Scrapper</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Google Drive Scrapper">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Scrap Google Drive Links For Movies , Pdfs , Courses">
+	<meta property="og:title" content="Google Drive Scrapper">
+	<meta property="og:site_name" content="Google Drive Scrapper">
+	<meta property="og:description" content="Scrap Google Drive Links For Movies , Pdfs , Courses'.">
+	<meta property="og:image" content="https://workforceedtech.org/wp-content/uploads/2019/03/GOOGLEDRIVELOGO.png">
+	<meta name="twitter:card" content="https://workforceedtech.org/wp-content/uploads/2019/03/GOOGLEDRIVELOGO.png">
+	<link rel="shortcut icon" href="https://workforceedtech.org/wp-content/uploads/2019/03/GOOGLEDRIVELOGO.png" type="image/x-icon">  
+    <link rel="stylesheet" href="css/drive.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Drive Scrapper</h1>
+          <p id="description" class="description text-center">
+            Scrap Links From Your Websites
+          </p>
+        </header>
+
+        <!-- ///////////////////////////////////// DRIVE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+          <form id="url-setter">
+            <div class="form-group">
+              <center>
+                <h6>Drive Scrapper</h6>
+              </center>
+              <p>Search On Drive</p>
+              <textarea
+                oninput="setLink()" id="txt"
+                class="input-textarea"
+                name="url"
+                placeholder="Joker"
+              ></textarea>
+            </div>
+        
+            <div class="form-group">
+              <input type="button" id="btn" value="Submit" />
+            </div>
+            
+          </form>
+
+
+          <!-- ///////////////////////////////////// SITE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+          <form id="url-setter">
+            <div class="form-group">
+              <center>
+                <h6>Site Scrapper</h6>
+              </center>
+              <p>Search Tag</p>
+              <textarea
+                oninput="setLink()" id="txt1"
+                class="input-textarea"
+                name="url"
+                placeholder="Joker"
+              ></textarea>
+              <p>Enter Site</p>
+              <textarea
+                oninput="setLink()" id="txt2"
+                class="input-textarea"
+                name="url"
+                placeholder="drive.google.com"
+              ></textarea>
+            </div>
+        
+            <div class="form-group">
+              <input type="button" id="btn1" value="Submit" />
+            </div>
+          </form>
+
+          <!-- ///////////////////////////////////// PDF \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+          <form id="url-setter">
+            <div class="form-group">
+              <center>
+                <h6>Pdf Scrapper</h6>
+              </center>
+              <p>Search Pdf</p>
+              <textarea
+                oninput="setLink()" id="txt3"
+                class="input-textarea"
+                name="url"
+                placeholder="Python"
+              ></textarea>
+            </div>
+        
+            <div class="form-group">
+              <input type="button" id="btn2" value="Submit" />
+            </div>
+            
+          </form>
+
+          <!-- ///////////////////////////////////// File Type \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+          <form id="url-setter">
+            <div class="form-group">
+              <center>
+                <h6>Filetype Scrapper</h6>
+              </center>
+              <p>Search</p>
+              <textarea
+                oninput="setLink()" id="txt4"
+                class="input-textarea"
+                name="url"
+                placeholder="Gods Plan"
+              ></textarea>
+              <p>FileType</p>
+              <textarea
+                oninput="setLink()" id="txt5"
+                class="input-textarea"
+                name="url"
+                placeholder="mp3"
+              ></textarea>
+            </div>
+        
+            <div class="form-group">
+              <input type="button" id="btn3" value="Submit" />
+            </div>
+            
+          </form>
+          <audio autoplay loop>
+            <source src="https://github.com/healer-op/Dr4gM0uS3/blob/main/ODESZA%20-%20How%20Did%20I%20Get%20Here.mp3?raw=true" type="audio/ogg">
+          </audio>
+    </body>
+    <script src="js/drive.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/pdf.js"></script>
+    <script src="js/file.js"></script>
+    </html>
